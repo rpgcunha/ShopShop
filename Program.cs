@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 //esta linha foi adicionada: (e também o namespace Equipas.Data) <---------------------------------
 builder.Services.AddDbContext<ApplicationDbContext>
     (options => options.UseSqlServer(
-                        builder.Configuration.GetConnectionString("LOCAL2")));
+                        builder.Configuration.GetConnectionString("LOCAL")));
 
 
 var app = builder.Build();
