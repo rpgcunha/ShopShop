@@ -9,133 +9,133 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShopShop
 build_property.RootNamespace = ShopShop
-build_property.ProjectDir = D:\code\ShopShop\
+build_property.ProjectDir = C:\Users\admin\Desktop\formacao_git\ShopShop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\code\ShopShop
+build_property.MSBuildProjectDirectory = C:\Users\admin\Desktop\formacao_git\ShopShop
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/code/ShopShop/Views/Categorias/Create.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Categorias/Delete.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Categorias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Categorias/Details.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Categorias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Categorias/Edit.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Categorias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Categorias/Index.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Clientes/Create.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Clientes/Delete.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Clientes/Details.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Clientes/Edit.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Clientes/Index.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Compras/Create.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Compras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Compras/Delete.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Compras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Compras/Details.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Compras/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Compras/Edit.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Compras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Compras/Index.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Compras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Home/Index.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Listas/Create.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Listas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Listas/Delete.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Listas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Listas/Details.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Listas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Listas/Edit.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Listas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Listas/Index.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Listas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Produtos/Create.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Produtos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Produtos/Delete.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Produtos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Produtos/Details.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Produtos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Produtos/Edit.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Produtos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Produtos/Index.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Shared/Error.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/_ViewImports.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/_ViewStart.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/ShopShop/Views/Shared/_Layout.cshtml]
+[C:/Users/admin/Desktop/formacao_git/ShopShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0eedrf78a4
