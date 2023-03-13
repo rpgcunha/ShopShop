@@ -1,17 +1,17 @@
 ﻿@model IEnumerable<ShopShop.Models.Lista>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Lista";
 }
 
-<h1>Index</h1>
+<h1>Lista</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Produto)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Quantidade)
             </th>
@@ -21,15 +21,15 @@
             <th>
                 @Html.DisplayNameFor(model => model.Local)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Produto)
-            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produto.Nome)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Quantidade)
             </td>
@@ -39,15 +39,15 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Local)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Produto.Id)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            <td style="text-align: right">
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+<p>
+    <a asp-action="Create">Criar Nova</a>
+</p>

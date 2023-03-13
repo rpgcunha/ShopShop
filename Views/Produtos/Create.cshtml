@@ -1,10 +1,10 @@
 ﻿@model ShopShop.Models.Produto
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar";
 }
 
-<h1>Create</h1>
+<h1>Criar</h1>
 
 <h4>Produto</h4>
 <hr />
@@ -18,33 +18,33 @@
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CategoriaId" class="control-label"></label>
+                <label asp-for="CategoriaId" class="control-label">Categoria</label>
                 <select asp-for="CategoriaId" class ="form-control" asp-items="ViewBag.CategoriaId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="PrecoCont" class="control-label"></label>
+                <label asp-for="PrecoCont" class="control-label">Continente</label>
                 <input asp-for="PrecoCont" class="form-control" />
                 <span asp-validation-for="PrecoCont" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PrecoPD" class="control-label"></label>
+                <label asp-for="PrecoPD" class="control-label">Pingo Doce</label>
                 <input asp-for="PrecoPD" class="form-control" />
                 <span asp-validation-for="PrecoPD" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PrecoMerc" class="control-label"></label>
+                <label asp-for="PrecoMerc" class="control-label">Mercadona</label>
                 <input asp-for="PrecoMerc" class="form-control" />
                 <span asp-validation-for="PrecoMerc" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Criar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar</a>
 </div>
 
 @section Scripts {

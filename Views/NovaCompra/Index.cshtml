@@ -1,0 +1,8 @@
+﻿<h3>Nova Compra</h3>
+<br />
+<br />
+@using (Html.BeginForm())
+{
+    <p>Categorias dos Produtos:</p>
+    <p>@Html.DropDownList("categoria",(SelectList)ViewBag.CATEGORIAS, "Selecione a categoria:")</p>
+}
