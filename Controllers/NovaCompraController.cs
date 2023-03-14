@@ -15,7 +15,7 @@ namespace ShopShop.Controllers
         {
             dbpointer = context;
         }
-        public IActionResult Index(string categoria, string preco)
+        public IActionResult Index(string categoria, string preco, string quantidade)
         {
             ViewBag.CATEGORIAS = new SelectList(dbpointer.Categorias, "Id", "Nome");
 
@@ -38,18 +38,35 @@ namespace ShopShop.Controllers
                         listaProdutos.Add(produtoFiltrado);
                     }                
                 }
-                if (preco != null)
+                if (preco != null && quantidade != null)
                 {
                     string[] precoParts = preco.Split('|');
                     string id = precoParts[0];
                     string local = precoParts[1];
+                    //foreach (var item in dbpointer.Produtos)
+                    //{
+                    //    if (id == item.Id.ToString())
+                    //    {
+                    //        switch (local)
+                    //        {
+                    //            case "continente":
+                    //                break;
+                    //            case "pingoDoce":
+                    //                break;
+                    //            case "mercadona":
+                    //                break;
+                    //        }
+                    //    }
+                    //}
                     ViewBag.ID = id;
                     ViewBag.LOCAL = local;
+                    ViewBag.QUANTIDADE = quantidade;
                 }
                 else
                 {
                     ViewBag.NOME = "";
                     ViewBag.LOCAL = "";
+                    ViewBag.QUANTIDADE = "";
                 }
                 return View(listaProdutos.ToList());
             }           

@@ -19,9 +19,6 @@
                     Nome
                 </th>
                 <th>
-                    Quantidade
-                </th>
-                <th>
                     Continente
                 </th>
                 <th>
@@ -30,7 +27,6 @@
                 <th>
                     Mercadona
                 </th>
-                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -38,25 +34,81 @@
             {
                 <tr>
                     <th>@item.Nome</th>
-                    <th>@Html.TextBox("quantidade")</th>
                     <th>
-                        @Html.RadioButton("preco",$"{item.Id}|Continente")
+                        @Html.RadioButton("preco",$"{item.Id}|continente")
                         @item.PrecoCont€
                     </th>
                     <th>
-                        @Html.RadioButton("preco",$"{item.Id}|PingoDoce")
+                        @Html.RadioButton("preco",$"{item.Id}|pingoDoce")
                         @item.PrecoPD€
                     </th>
                     <th>
-                        @Html.RadioButton("preco",$"{item.Id}|Mercadona")
+                        @Html.RadioButton("preco",$"{item.Id}|mercadona")
                         @item.PrecoMerc€
                     </th>
-                    <th><input type="submit" value="Adicionar"/></th>
                 </tr>
-            }
+            }            
+        </tbody>
+    </table>
+    <table class="table-responsive">
+        <tr>
+            <th>Quantidade:</th>
+            <th>@Html.TextBox("quantidade")</th>
+            <th><input type="submit" value="Adicionar" /></th>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <h5>Listas de Compras</h5>
+    <table class="table" style="border-style:solid">
+        <thead>
+            <tr style="text-align:center">
+                <td>Continente</td>
+                <td>Pingo Doce</td>
+                <td>Mercadona</td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="table" style="border-style:solid">
+                        <tr style="text-align:center">
+                            <td>Nome</td>
+                            <td>Quantidade</td>
+                            <td>Preço</td>
+                            <td>Total</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="table" style="border-style:solid">
+                        <tr style="text-align:center">
+                            <td>Nome</td>
+                            <td>Quantidade</td>
+                            <td>Preço</td>
+                            <td>Total</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="table" style="border-style:solid">
+                        <tr style="text-align:center">
+                            <td>Nome</td>
+                            <td>Quantidade</td>
+                            <td>Preço</td>
+                            <td>Total</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            
         </tbody>
     </table>
 }
+
 <h5>@ViewBag.ID</h5>
 <br />
 <h5>@ViewBag.LOCAL</h5>
+<br />
+<h5>@ViewBag.QUANTIDADE</h5>
