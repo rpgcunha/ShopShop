@@ -1,8 +1,62 @@
-﻿<h3>Nova Compra</h3>
+﻿@model IEnumerable<ShopShop.Models.CategoriaProdutos>
+
+<h3>Nova Compra</h3>
 <br />
 <br />
 @using (Html.BeginForm())
 {
     <p>Categorias dos Produtos:</p>
     <p>@Html.DropDownList("categoria",(SelectList)ViewBag.CATEGORIAS, "Selecione a categoria:")</p>
+
+    <input type="submit" value="Escolher" />
+    <br />
+    <br />
+    <h5>Lista de Produtos:</h5>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Quantidade
+                </th>
+                <th>
+                    Continente
+                </th>
+                <th>
+                    Pingo Doce
+                </th>
+                <th>
+                    Mercadona
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.Nome</th>
+                    <th>@Html.TextBox("quantidade")</th>
+                    <th>
+                        @Html.RadioButton("preco",$"{item.Id}|Continente")
+                        @item.PrecoCont€
+                    </th>
+                    <th>
+                        @Html.RadioButton("preco",$"{item.Id}|PingoDoce")
+                        @item.PrecoPD€
+                    </th>
+                    <th>
+                        @Html.RadioButton("preco",$"{item.Id}|Mercadona")
+                        @item.PrecoMerc€
+                    </th>
+                    <th><input type="submit" value="Adicionar"/></th>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
+<h5>@ViewBag.ID</h5>
+<br />
+<h5>@ViewBag.LOCAL</h5>
